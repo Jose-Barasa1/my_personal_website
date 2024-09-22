@@ -1,20 +1,95 @@
-body {
-    background: white;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 700px;
-
-
-}
-header{
-    padding: 100px; 
-  text-align: center; 
-  background: #1abc9c; 
-  color: white; 
+*{
+  padding: 5px;
+  margin: 0px;
+  font-size: 20px;
 }
 
 
-.header h1 {
-  font-size: 40px;
+
+a{
+  text-decoration: double;
+  color: black;
+}
+#navbar{
+  padding: 11px;
+  width: 90px;
+  margin: auto;
+  top: 0cqw;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
 }
 
+#navbar div a{
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 20px;
+}
+
+#navbar div a hover{
+  color: blue;
+}
+
+landing{
+  display:-moz-deck;
+  grid-template-columns: auto;
+  height: 90px;
+  width: 100px;
+  margin: auto;
+  align-items: normal;
+  justify-content: space-between;
+  text-align: center;
+}
+.landing div{
+width: 50px;
+}
+.landing .right{
+  border-radius: 25px;
+  border-width: 45px;
+  text-align: center;
+}
+.landing p{
+  margin-bottom: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 20px;
+  color: black;
+}
+.landing img{
+height: 70px;
+}
+.landing h1{
+  color: brown;
+}
+.landing h2{
+color: black;
+}
+h3{
+  text-align: center;
+  color:black;
+}
+.levels p{
+  text-align: center;
+}
+.levels li{
+  text-align: center;
+}
+.footer{
+  background-color: black;
+  color: aliceblue;
+  padding: 24px;
+  text-align: center;
+}
+.footer div{
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.footer a{
+  color: antiquewhite;
+}
+.footer a:hover{
+  color: black;
+}
