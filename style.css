@@ -6,8 +6,15 @@ body {
 
 
 }
-head{
-    background-color: beige;
-    border-color: black;
-    border-top-color: black;
+header{
+    padding: 100px; 
+  text-align: center; 
+  background: #1abc9c; 
+  color: white; 
 }
+
+
+.header h1 {
+  font-size: 40px;
+}
+
